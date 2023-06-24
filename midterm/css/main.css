@@ -52,7 +52,6 @@ table {
 }
 
 #home {
-  margin: 8px;
   font-size: 23px;
 }
 
@@ -71,18 +70,15 @@ main {
   position: absolute;
   left: 39%;
   top: 23%;
-  color: white;
   font-size: 55px;
   font-weight: lighter;
+  color: white;
 }
 
-.starfish-plus {
-  width: 50%;
-}
+/* .lone-starfish-center{
+  position: relative;
+} */
 
-.lone-starfish-center {
-  text-align: center;
-}
 
 .input-max-width {
   width: 100%;
@@ -116,5 +112,6 @@ footer {
 }
 
 .starfish-facts {
-  text-align: left;
+  margin-left: -2.3%;
 }
+
