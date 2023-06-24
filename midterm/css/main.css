@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aad4cf;
+  font-family: Arial, Helvetica, sans-serif;
+  background-position: top right;
+  background-size: cover;
+  min-width: 1500px;
+}
+
+.wrapper {
+  background-color: #D4E9E7;
+  width: 68.12%;
+  margin: 0 auto;
+}
+
+#lone-starfish {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.nav ul li {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+}
+
+.nav {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+}
+
+.nav tr td {
+  color: black;
+  font-weight: 550;
+  border-width: 0px 1px 0 0;
+  text-align: center;
+  width: 32%;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  color: #000000;
+}
+
+#home {
+  margin: 8px;
+  font-size: 23px;
+}
+
+main {
+  margin: 8px;
+}
+
+.forms {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%
+}
+
+#starfish-text {
+  position: absolute;
+  left: 39%;
+  top: 23%;
+  color: white;
+  font-size: 55px;
+  font-weight: lighter;
+}
+
+.starfish-plus {
+  width: 50%;
+}
+
+.lone-starfish-center {
+  text-align: center;
+}
+
+.input-max-width {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 6px;
+  border: solid 1px rgb(194, 193, 193);
+}
+
+.send-btn {
+  background-color: transparent;
+  border: solid black 1px;
+  color: black;
+  padding: 8px 10px;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.form-label {
+  font-weight: bolder;
+}
+
+#your-message {
+  height: 90px;
+  border: solid 1px rgb(152, 152, 152);
+}
+
+footer {
+  text-align: right;
+  padding: 6px;
+  font-weight: 600;
+}
+
+.starfish-facts {
+  text-align: left;
+}
