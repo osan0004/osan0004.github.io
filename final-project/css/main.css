@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav{
+  background-color:#222222;
+}
+
+.logo{
+  background-color:#C78B07;
+  text-align: center;
+  padding: 1rem;
+}
+
+.list-color li a:link,
+.list-color li a:visited {
+  color:#C78B07;
+  text-decoration: none;
+}
+
+.list-color li a:hover,
+.list-color li a:focus {
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+.list-color li{
+   list-style: none;
+   padding: 1rem;
+}
+
+.list-color ul{
+  text-align: center;
+}
+
+.search-bar{
+ padding: 1rem;
+}
+
+.search-bar-width{
+  width: 100%;
+}
+
+.material-icons-outlined{
+  color: #C78B07;
+}
+
+.search-button{
+  background-color:#222222;
+  border:#C78B07 2px solid ;
+}
+
+.search-flex{
+  display: flex;
+}
+
+input.search-bar-width[placeholder]{
+  font-size: 1rem;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: 1rem
+
+}  
+
+.hero-section{
+  background-image: url('/final-project/images/main-banner.jpg');
+  min-height: 60vh;
+  /* min-height: 50rem; */
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  padding: 6rem 0;
+}
+
+.send-btn{
+  padding: 1rem;
+  background-color: #C78B07;
+  border: none;
+  margin: 1rem;
+}
+
+.hero-images{
+  background-color: rgba(0, 0, 0, 0.419);
+  padding-top: 1rem;
+}
+
+.hero-text{
+  padding: 1rem;
+  color: white;
+  font-size: .8rem;
+}
+
+.about-us-sec{
+  background-color:#FFE6AC ;
+  padding: 1rem;
+}
+
+/* .about-us-image{
+  object-fit: contain;
+  object-fit: fill;
+} */
+
+.about-us-text{
+  padding: 1rem 0;
+}
+
+.about-us-image{
+  width: 100%;
+}
+
+p{
+  font-size: 12px;
+  padding: .4rem 0;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
