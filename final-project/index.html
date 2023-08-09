@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Final Project</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <header>
-    <div class="wrapper">
+    <div class="header-wrapper">
       <div class="nav">
 
         <!-- add orange background color -->
@@ -21,7 +23,7 @@
 
         <nav class="list-color">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html"> <span class="home-nav"> Home </span> </a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="about.html">Services</a></li>
             <li><a href="about.html">Team</a></li>
@@ -47,8 +49,9 @@
 
   <main>
     <section class="hero-section">
-      <div class="hero-images">
-        <div class="wrapper">
+      <div class="header-wrapper">
+        <div class="hero-images">
+
           <h1>
             Welcome to Three Star Media
           </h1>
@@ -57,9 +60,10 @@
             enim placeat voluptate eum ipsa optio aliquid tempora eos voluptates quidem fugiat! Temporibus, eaque non!
           </p>
 
-          <div class="connect-btn">
-            <button class="send-btn" type="submit">Connect with us</button>
-          </div>
+          <button class="send-btn-1" type="submit">Connect with us <span class="material-symbols-sharp">
+              arrow_right
+            </span> </button>
+
         </div>
       </div>
     </section>
@@ -67,13 +71,14 @@
     <!-- add background color-beige  -->
     <section class="about-us-sec">
 
-      <div class="wrapper">
-        <div class="about-us-image">
-          <img src="images/about-us.jpg" alt="about-us-banner">
+      <div id="flex-wrapper" class="header-wrapper">
+        <div class="about-us-image padding">
+          <img id="about-us-id" src="images/about-us.jpg" alt="about-us-banner">
         </div>
-        <div class="about-us-text">
-          <h2>About Us</h2>
-          
+
+        <div class="about-us-text padding">
+          <h2 class="abt-us-txt">About Us</h2>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut reiciendis modi soluta sint excepturi saepe
             sapiente impedit, minima voluptatibus quam? Aut cupiditate necessitatibus laudantium? Officia repellendus
@@ -89,235 +94,274 @@
     </section>
 
     <section class="our-services">
-      <div class="wrapper">
-        <h2>
-          Our Services
-        </h2>
-    
+
+      <h2 class="wrapper">
+        Our Services
+      </h2>
+
+      <div class="wrapper services-grid">
         <!-- add background color-beige  -->
         <div class="digital-trans">
-          <img src="images/digital.jpg" alt="mcbook-phone">
-          <h3>
-            Digital Tranformation
-          </h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ea obcaecati ullam tempora eaque aliquam
-            nulla quibusdam corporis earum, expedita placeat laudantium soluta cupiditate dolorum rerum, reprehenderit
-            magnam necessitatibus deserunt!
-          </p>
-          <div class="connect-btn">
-            <button class="send-btn" type="submit">Digital Plans</button>
+          <img class="image-3" src="images/digital.jpg" alt="mcbook-phone">
+
+          <div class="heading-text">
+            <h3>
+              Digital Tranformation
+            </h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ea obcaecati ullam tempora eaque aliquam
+              nulla quibusdam corporis earum, expedita placeat laudantium soluta cupiditate dolorum rerum, reprehenderit
+              magnam necessitatibus deserunt!
+            </p>
+
+            <button class="send-btn-2" type="submit">Digital Plans <span class="material-symbols-sharp">
+                arrow_right
+              </span> </button>
           </div>
         </div>
         <!-- add background color-beige  -->
-    
+
         <!-- add background color-beige  -->
         <div class="marketing-stocks">
-          <img src="images/marketing.jpg" alt="laptop-stocks">
-          <h3>
-            Marketing
-          </h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero incidunt ullam aperiam blanditiis unde
-            tempore eos aspernatur dolores voluptates explicabo aliquam architecto ipsum, libero voluptatibus eligendi
-            reprehenderit rem voluptate minima?
-          </p>
-          <div class="connect-btn">
-            <button class="send-btn" type="submit">Marketing Plans</button>
+          <img class="image-4" src="images/marketing.jpg" alt="laptop-stocks">
+
+          <div class="heading-text">
+            <h3>
+              Marketing
+            </h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero incidunt ullam aperiam blanditiis unde
+              tempore eos aspernatur dolores voluptates explicabo aliquam architecto ipsum, libero voluptatibus eligendi
+              reprehenderit rem voluptate minima?
+            </p>
+
+            <button class="send-btn-2" type="submit">Marketing Plans <span class="material-symbols-sharp">
+                arrow_right
+              </span> </button>
           </div>
         </div>
         <!-- add background color-beige  -->
-    
+
         <!-- add background color-beige  -->
         <div class="video-prod">
-          <img src="images/video.jpg" alt="mobile-youtube">
-          <h3>
-            Video Plans
-          </h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, incidunt facilis inventore optio
-            tempore expedita. Pariatur, laborum odit tenetur corrupti exercitationem blanditiis? Placeat laudantium eos
-            magni eaque nam voluptatum quas?
-          </p>
-          <div class="connect-btn">
-            <button class="send-btn" type="submit">Video Plans</button>
+          <img class="image-5" src="images/video.jpg" alt="mobile-youtube">
+
+          <div class="heading-text">
+            <h3>
+              Video Production
+            </h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, incidunt facilis inventore optio
+              tempore expedita. Pariatur, laborum odit tenetur corrupti exercitationem blanditiis? Placeat laudantium
+              eos
+              magni eaque nam voluptatum quas?
+            </p>
+
+            <button class="send-btn-2" type="submit">Video Plans <span class="material-symbols-sharp">
+                arrow_right
+              </span> </button>
           </div>
         </div>
         <!-- add background color-beige  -->
-    
+
         <!-- add background color-beige  -->
         <div class="web-dev">
-          <img src="images/web.jpg" alt="mobile-instagram">
-          <h3>
-            Web Development
-          </h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, exercitationem at tempora iste delectus
-            officia, nostrum similique eveniet voluptatem optio quas excepturi laboriosam tenetur, eius perferendis
-            minima culpa quaerat placeat?
-          </p>
-          <div class="connect-btn">
-            <button class="send-btn" type="submit">Web Plans</button>
+          <img class="image-6" src="images/web.jpg" alt="mobile-instagram">
+
+          <div class="heading-text">
+            <h3>
+              Web Development
+            </h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, exercitationem at tempora iste delectus
+              officia, nostrum similique eveniet voluptatem optio quas excepturi laboriosam tenetur, eius perferendis
+              minima culpa quaerat placeat?
+            </p>
+
+            <button class="send-btn-2" type="submit">Web Plans <span class="material-symbols-sharp">
+                arrow_right
+              </span> </button>
           </div>
         </div>
         <!-- add background color-beige  -->
-    
+
         <!-- add background color-beige  -->
         <div class="print-box">
-          <img src="images/print.jpg" alt="news-boxs">
-          <h3>
-            Print
-          </h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, voluptatem provident vitae deserunt porro
-            itaque rem temporibus dolore sit minima tempore eligendi repellendus nemo quas, culpa commodi facilis
-            consequatur qui!
-          </p>
-          <div class="connect-btn">
-            <button class="send-btn" type="submit">Print Plans</button>
+          <img class="image-7" src="images/print.jpg" alt="news-boxs">
+
+          <div class="heading-text">
+            <h3>
+              Print
+            </h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, voluptatem provident vitae deserunt porro
+              itaque rem temporibus dolore sit minima tempore eligendi repellendus nemo quas, culpa commodi facilis
+              consequatur qui!
+            </p>
+
+            <button class="send-btn-2" type="submit">Print Plans <span class="material-symbols-sharp">
+                arrow_right
+              </span> </button>
           </div>
         </div>
-        <!-- add background color-beige  -->
       </div>
+      <!-- add background color-beige  -->
     </section>
 
     <!-- add less margin space -->
     <section class="vision-map">
-      <div class="wrapper">
-        <img src="images/vision.jpg" alt="our-vision">
-    
-        <h3>Our Vision</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error tempora tenetur sit! Cupiditate
-          molestias aliquid, voluptatum consectetur suscipit voluptatibus neque magni maxime a modi. Ipsa itaque
-          pariatur debitis fugiat?
-        </p>
-    
-        <!-- add border color orange -->
-        <div class="connect-btn">
-          <button class="send-btn" type="submit">Learn More</button>
+      <div class="header-wrapper">
+        <!-- <img src="images/vision.jpg" alt="our-vision"> -->
+
+        <div class="vision-text">
+          <h3>Our Vision</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error tempora tenetur sit! Cupiditate
+            molestias aliquid, voluptatum consectetur suscipit voluptatibus neque magni maxime a modi. Ipsa itaque
+            pariatur debitis fugiat?
+          </p>
+
+          <!-- add border color orange -->
+
+          <button class="send-btn-3" type="submit">Learn More <span class="material-symbols-sharp">
+              arrow_right
+            </span> </button>
+
         </div>
       </div>
     </section>
     <!-- add background color-beige  -->
 
     <section class="our-team">
-      <div class="wrapper">
-        <h2>
-          Our Team
-        </h2>
-    
+
+      <h2 class="wrapper ">
+        Our Team
+      </h2>
+
+      <div class="wrapper team-grid ">
         <!-- add background color-beige  -->
         <div class="john-doe">
-          <img src="images/john.jpg" alt="image-of-john">
-    
-          <h3>John Doe</h3>
-          <h4>CEO and Co-owner</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est in dolorum quis optio obcaecati ipsum
-            consequatur dicta animi voluptate impedit mollitia aliquid expedita, porro dolores tempora laudantium!
-            Sapiente, vero rerum!
-          </p>
+          <img class="team-img-1" src="images/john.jpg" alt="image-of-john">
+
+          <div class="heading-text">
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
+            <hr>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est in dolorum quis optio obcaecati ipsum
+              consequatur dicta animi voluptate impedit mollitia aliquid expedita, porro dolores tempora laudantium!
+              Sapiente, vero rerum!
+            </p>
+          </div>
         </div>
         <!-- add background color-beige  -->
-    
+
         <!-- add background color-beige  -->
         <div class="bob-rite">
-          <img src="images/bob.jpg" alt="image-of-bob">
-    
-          <h3>Bob Rite</h3>
-          <h4>CFO and Co-owner</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae reiciendis tempore officia
-            mollitia praesentium ullam sint quas, cumque dolores! Veritatis ducimus modi, laudantium itaque voluptates
-            quae debitis mollitia obcaecati?
-          </p>
+          <div class="our-team-text">
+            <img class="team-img-2" src="images/bob.jpg" alt="image-of-bob">
+
+            <div class="heading-text bob-grid-text">
+              <h3>Bob Rite</h3>
+              <h4>CFO and Co-owner</h4>
+              <hr>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae reiciendis tempore officia
+                mollitia praesentium ullam sint quas, cumque dolores! Veritatis ducimus modi, laudantium itaque
+                voluptates
+                quae debitis mollitia obcaecati?
+              </p>
+            </div>
+          </div>
         </div>
         <!-- add background color-beige  -->
       </div>
     </section>
 
-    <section class="forms">
-      <div class="wrapper">
+    <section class="contact-grid">
+      <div class="wrapper form-grid">
         <h2>Contact Us</h2>
-        <h3>Send us a message</h3>
     
-        <div>
-          <label class="form-label" for="fname"> Full Name </label>
-        </div>
-        <div>
-          <input class="input-max-width" id="fname" type="text" name="fname">
-        </div>
+        <div class="contacts">
     
-        <div>
-          <label class="form-label" for="age"> Email </label>
-        </div>
-        <div>
-          <input class="input-max-width" id="age" type="text" name="Email">
-        </div>
+          <div class="form-grid">
+            <h3>Send us a message</h3>
     
-        <div>
-          <label class="form-label" for="your-message"> Message</label>
-        </div>
-        <div>
-          <textarea class="input-max-width" id="your-message"></textarea>
-        </div>
+            <div class="full-name">
+              <label class="form-label" for="fname"> Full Name </label>
+            </div>
+            <div>
+              <input class="input-max-width" id="fname" type="text" name="fname">
+            </div>
     
-        <div>
-          <button class="send-btn" type="submit">Send</button>
+            <div class="form-email">
+              <label class="form-label" for="age"> Email </label>
+            </div>
+            <div>
+              <input class="input-max-width" id="age" type="text" name="Email">
+            </div>
+    
+            <div class="form-message">
+              <label class="form-label" for="your-message"> Message</label>
+            </div>
+            <div class="message-box">
+              <textarea class="input-max-width" id="your-message"></textarea>
+            </div>
+    
+            <button class="send-btn-4" type="submit">Send</button>
+          </div>
+    
+    
+          <div class="wrapper table-grid">
+            <h3>
+              Hours of operation
+            </h3>
+    
+            <div>
+              <table>
+                <!-- add background color-beige  -->
+                <tr class="days-hrs">
+                  <th>Days</th>
+                  <th>Hours</th>
+                </tr>
+                <!-- add background color-beige  -->
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                  <td> Saturday - Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+    
+    
+          <div class="wrapper location-grid">
+            <h3>
+              Location
+            </h3>
+    
+            <iframe class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9444565900317!2d-75.75750062405976!3d45.3499334710722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1690524881910!5m2!1sen!2sca"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+    
+            <!-- add less margin space -->
+          </div>
         </div>
       </div>
     </section>
+    </main>
 
-    <section class="hours-of-ops">
-      <div class="wrapper">
-        <h3>
-          Hours of operation
-        </h3>
-    
-        <div class="hours-table-grid">
-          <table>
-            <!-- add background color-beige  -->
-            <tr>
-              <th>Days</th>
-              <th>Hours</th>
-            </tr>
-            <!-- add background color-beige  -->
-            <tr>
-              <td>Monday - Friday</td>
-              <td>9 AM - 6 PM</td>
-            </tr>
-            <tr>
-              <td> Saturday - Sunday</td>
-              <td>Closed</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section class="location">
-      <div class="wrapper">
-        <h3>
-          Location
-        </h3>
-    
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9444565900317!2d-75.75750062405976!3d45.3499334710722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1690524881910!5m2!1sen!2sca"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    
-        <!-- add less margin space -->
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    &copy; Copyright Three Star Media, 2020
-    <p>
-      All images are taken from Unsplash
-    </p>
+  <footer class="footer-wrapper">
+    <div class="text-pad">
+      &copy; Copyright Three Star Media, 2020
+      <p class="footer-p">
+        All images are taken from <span class="underline"> Unsplash</span>
+      </p>
+    </div>
   </footer>
 </body>
 
